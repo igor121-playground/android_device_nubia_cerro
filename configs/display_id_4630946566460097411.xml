@@ -263,9 +263,4 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
     </timing>                                //   HBM on for.
   </highBrightnessMode>
 
-  <screenBrightnessRampFastDecrease>0.01</screenBrightnessRampFastDecrease>
-  <screenBrightnessRampFastIncrease>0.02</screenBrightnessRampFastIncrease>
-  <screenBrightnessRampIncreaseMaxMillis>2000</screenBrightnessRampIncreaseMaxMillis>
-  <screenBrightnessRampDecreaseMaxMillis>3000</screenBrightnessRampDecreaseMaxMillis>
-
 </displayConfiguration>
