@@ -15,10 +15,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/resourcemanager_pineapple_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/resourcemanager_pineapple_mtp.xml \
     $(DEVICE_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
 
-# Display
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/display_id_4630946566460097411.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946566460097411.xml
-
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
