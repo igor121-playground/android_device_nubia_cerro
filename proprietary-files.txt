@@ -117,9 +117,11 @@ vendor/etc/camera/adaptive_shutter_config.xml
 vendor/etc/camera/adaptive_shutter_config_moon.xml
 vendor/etc/camera/adaptive_shutter_config_night.xml
 vendor/etc/camera/adaptive_shutter_config_renwen.xml
+vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/dualcam_cali.bin
 vendor/etc/camera/eisoverridesettings.txt
 vendor/etc/camera/mfnr_network_denoise_config.xml
+vendor/etc/camera/mfnr_network_denoise_config_underdisplay.xml
 vendor/etc/camera/mfnr_network_denoise_config_moon.xml
 vendor/etc/camera/mfnr_network_denoise_config_night.xml
 vendor/etc/camera/mfnr_network_denoise_config_renwen.xml
@@ -159,9 +161,6 @@ vendor/firmware/evass.mdt
 # Fingerprint
 vendor/lib64/hw/fingerprint.gf95xx.default.so;FIX_SONAME
 vendor/lib64/libgf_hal.so
-
-# GNSS configs
-vendor/etc/gps.conf
 
 # Graphics (Adreno firmware)
 vendor/firmware/gen70900_zap.mbn
