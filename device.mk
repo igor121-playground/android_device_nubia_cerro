@@ -24,7 +24,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SettingsProviderResCerro
+    SettingsProviderResCerro \
+    YAAPSettingsOverlayCerro
 
 # Inherit from proprietary targets
 $(call inherit-product, vendor/nubia/cerro/cerro-vendor.mk)
